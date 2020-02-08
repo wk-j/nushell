@@ -14,7 +14,8 @@ curl https://api.github.com | from-json | get current_user_url
 curl https://api.github.com | from-json
 curl https://api.github.com | from-json | get emails_url events_url
 
-open README.md
+open README.md | size
+ls | pick name size type
 
 fetch http://headers.jsontest.com
 fetch http://headers.jsontest.com --raw
