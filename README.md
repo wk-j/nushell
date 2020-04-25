@@ -25,6 +25,7 @@ fetch https://api.github.com/emojis  | get sparkle | wk-cb
 ps | reject virtual mem cpu | sort-by name
 sys
 sys | get host
+sys | get disks
 ```
 
 ## Resource
