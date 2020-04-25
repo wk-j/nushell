@@ -19,6 +19,12 @@ ls | pick name size type
 
 fetch http://headers.jsontest.com
 fetch http://headers.jsontest.com --raw
+fetch https://api.github.com
+fetch https://api.github.com/emojis  | get sparkle | wk-cb
+
+ps | reject virtual mem cpu | sort-by name
+sys
+sys | get host
 ```
 
 ## Resource
