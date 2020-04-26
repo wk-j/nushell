@@ -9,5 +9,8 @@ cat json/a1.json | http POST http://localhost:5000/api/authentication/login | fr
 Jq
 
 ```
-cat json/a1.json | http POST http://localhost:5000/api/authentication/login  | jq -r .token | xargs -I {} echo {} {}
+cat json/a1.json | http POST http://localhost:5000/api/authentication/login  | jq -r .token
+cat json/a1.json | http POST http://localhost:5000/api/authentication/login  | jq -r .token
+
+echo a | xargs -I {} export c={}
 ```
